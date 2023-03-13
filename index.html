@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="./html.png">
+        <meta charset="UTF-8">
+        <style media="screen">
+            html{
+                scroll-behavior: smooth;
+                font-family: tahoma;
+            }
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            ul li{
+                margin: 5px;
+                margin-top: 15px;
+                padding: 5px;
+            }
+            ul li a{
+                color: aliceblue;
+                text-decoration: none;
+                font-size: 20px;
+                padding: 5px;
+            }
+            a:link, a:visited{
+                display: block;
+                font-weight: bold;
+                color: #000;
+                background-color: forestgreen;
+                width: 170px;
+                text-align: center;
+                padding: 5px;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+            a:hover, a:active{
+                background-color:gray;
+            }
+            li{
+                float: left;
+            }
+           
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="content">
+            <section id="#Home">
+                <h2>Home</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam exercitationem pariatur officiis voluptas aspernatur cupiditate aperiam corrupti, modi delectus quae quisquam, ut sed omnis aliquid laboriosam a itaque obcaecati incidunt?</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/L4qM1IEhtNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            </section>
+            <section id="#About">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae vel autem iure culpa rerum totam alias, at, reiciendis repellat labore necessitatibus modi perspiciatis sint veniam natus numquam, animi earum aliquid.</p>
+                <video width="320" height="240" controls>
+                    <source src="./aurora-borealis-90877.mp4" type="video/mp4">
+                  </video>
+            </section>
+            <section id="#Work">
+                <h2>Work</h2>
+            </section>
+            <section id="#Resume">
+                <h2>Resume</h2>
+            </section>
+            <section id="#Contact">
+                <h2>Contact</h2>
+            </section>
+
+        </div>
+    </body>
+</html>
